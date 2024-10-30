@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #F0F0F0;
+
+    body {
+    background-image: url(imagebackground.jpg); / 
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+}
+
+h2 {
+    color: red;           
+    font-size: 24px;     
+    font-family: Helvetica; 
+}
+
+h3 {
+    color: #2C3E50; 
+    font-size: 20px; 
+}
+
+img {
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none; 
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980B9; 
+    text-decoration: underline; 
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 4px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+    padding: 30px; 
+    margin: 20px 0; 
+}
+
+#about,
+#skills,
+#socials {
+    margin: 20px auto;                    
+    padding: 20px;                         
+    background: #ffffff;                  
+    border-radius: 4px;                   
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    max-width: 600px;                       
+}
